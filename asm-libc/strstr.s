@@ -4,7 +4,9 @@ extern strlen
 extern strncmp
 
 global strstr
-	
+
+;; WRONG, old copy, not working
+
 _strstr:
 	;; prologue
 	push ebp
