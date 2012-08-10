@@ -1,0 +1,35 @@
+\documentclass{article}
+
+% Shell lines
+\usepackage{xcolor}
+\usepackage{listings}
+\lstdefinestyle{BashInputStyle}{
+  language=bash,
+  basicstyle=\small\sffamily,
+  numbers=left,
+  numberstyle=\tiny,
+  numbersep=3pt,
+  frame=tb,
+  columns=fullflexible,
+  backgroundcolor=\color{yellow!20},
+  linewidth=0.9\linewidth,
+  xleftmargin=0.1\linewidth
+}
+
+\title{Git Branching Cheat Sheet}
+\author{Patrick Rabier}
+
+\begin{document}
+\maketitle
+
+\section{Creating a branch}
+\begin{lstlisting}[style=BashInputStyle]
+    # (sh) git branch [branch name]
+\end{lstlisting}
+
+\section{Switching to a branch}
+\begin{lstlisting}[style=BashInputStyle]
+    # (sh) git checkout [branch name]
+\end{lstlisting}
+
+\end{document}
