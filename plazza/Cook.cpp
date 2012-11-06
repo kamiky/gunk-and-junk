@@ -9,6 +9,7 @@
 // Started on  Sat Apr  9 10:03:49 2011 patrick rabier
 //
 
+#include <unistd.h>
 #include <iostream>
 #include "Cook.hh"
 

@@ -9,6 +9,7 @@
 // Started on  Sun Apr 10 11:00:53 2011 patrick rabier
 //
 
+#include <unistd.h>
 #include <iostream>
 #include <sys/time.h>
 #include "Kitchen.hh"

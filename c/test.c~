@@ -1,0 +1,9 @@
+#include "list/list.h"
+
+int		main()
+{
+  List		*l = List_new();
+  char		a = 'a', b = 'b', c = 'c';
+
+  List_append(l,
+}
